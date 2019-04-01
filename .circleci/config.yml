@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - checkout
-      - sleep 500
+      - run: sleep 500
       # Download and cache dependencies
       - restore_cache:
           keys:
