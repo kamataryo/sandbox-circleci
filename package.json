@@ -1,0 +1,8 @@
+{
+  "name": "sandbox-circleci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kamataryo/sandbox-circleci.git",
+  "author": "kamataryo <mugil.cephalus+Ciconia.local@gmail.com>",
+  "license": "MIT"
+}
