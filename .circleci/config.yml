@@ -1,16 +1,16 @@
 version: 2
 jobs:
-  test-unit:
+  - test-unit:
     docker:
       image: circleci/node:lts
     steps:
       - run: echo 'unit test'
-  test-e2e:
+  - test-e2e:
     docker:
       image: circleci/node:lts
     steps:
       - run: echo 'e2e unit test'
-  deploy:
+  - deploy:
     docker:
       image: circleci/node:lts
     steps:
