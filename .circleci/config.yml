@@ -26,8 +26,3 @@ workflows:
           requires:
             - test-unit
             - test-e2e
-          filters:
-            tags:
-              only: /.*/
-            branches:
-              ignore: /.*/
